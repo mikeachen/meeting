@@ -6,3 +6,50 @@ html, body {
 
     overflow: hidden;
 }
+
+/* TODO NOISE */
+body {
+    background-image: linear-gradient(134deg, #3023AE 0%, #C86DD7 100%);
+
+    display: flex;
+    justify-content: center;
+}
+
+#alert {
+    width: 500px;
+    height: 350px;
+
+    align-self: center;
+
+    background-color: #FAFAFA;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#alert h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+#alert p {
+    font-size: 14px;
+}
+
+/* MailChimp form */
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+#mc_embed_signup input.email {
+    width: 302px;
+}
+
